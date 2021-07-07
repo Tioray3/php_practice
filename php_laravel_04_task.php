@@ -64,6 +64,7 @@ print_r($array_color);
 
 //・time : 現在時刻のUNIXタイムスタンプを取得する
 //・mktime : 指定した日時のUNIXタイムスタンプを取得する
+//・date : 指定したUNIXタイムスタンプを指定した日時や年月日などの表示に
 $now_unix = time();
 echo date("Y/m/d" , $now_unix); //この場合time()は省略できるのでecho date("Y/m/d")だけでも機能する
 

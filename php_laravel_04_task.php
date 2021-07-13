@@ -19,7 +19,10 @@ echo add(5,7);
 $array= array(1,3,5,7,9);
 
 function multiplication($arr){
-    $multiplication = array_product($arr);
+    $multiplication = 1;
+    for($i = 0; $i < count($arr); $i++){
+        $multiplication *= $arr[$i];
+    }
     return $multiplication;
 }
 
